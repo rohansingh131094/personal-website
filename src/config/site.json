@@ -1,39 +1,40 @@
 {
   "meta": {
-    "title": "John Doe | Senior Software Engineer",
-    "description": "Ex-Meta engineer with 5+ years building systems at scale. Expertise in backend architecture, distributed systems, and technical leadership.",
+    "title": "Rohan Singh | Enterprise Sales Engineer",
+    "description": "Enterprise Sales Engineer with 7+ years closing Fortune 500 deals in AI. Currently at Sierra driving AI agent adoption for enterprise customer experience.",
     "language": "en",
     "themeColor": "#0668E1",
-    "url": "https://johndoe.dev",
+    "url": "https://rohansingh.dev",
     "ogImage": "/og-image.jpg",
-    "keywords": "Senior Software Engineer, Ex-Meta, Instagram, Backend Engineer, Distributed Systems, Python, Go, Staff Engineer",
-    "author": "John Doe",
+    "keywords": "Enterprise Sales Engineer, AI Agents, Sales Engineering, Pre-Sales, POC, Fortune 500, Sierra, Aisera, Salesforce, ServiceNow",
+    "author": "Rohan Singh",
     "robots": "index, follow",
-    "ogSiteName": "John Doe Portfolio",
+    "ogSiteName": "Rohan Singh",
     "locale": "en_US",
     "favicon": "/favicon.svg"
   },
   "structuredData": {
     "enabled": true,
     "employer": {
-      "name": "Open to Opportunities",
+      "name": "Sierra",
       "type": "Organization"
     },
     "address": {
-      "locality": "San Francisco",
+      "locality": "New York",
       "country": "US"
     },
     "knowsAbout": [
+      "Sales Engineering",
+      "AI Agents",
+      "Enterprise Sales",
+      "Salesforce",
+      "ServiceNow",
       "Python",
-      "Go",
-      "Distributed Systems",
-      "System Design",
-      "Kubernetes",
-      "GraphQL"
+      "SQL"
     ]
   },
   "branding": {
-    "name": "JD",
+    "name": "RS",
     "logo": null,
     "showName": true
   },
@@ -65,11 +66,6 @@
         "external": false
       },
       {
-        "href": "#projects",
-        "label": "Projects",
-        "external": false
-      },
-      {
         "href": "#contact",
         "label": "Contact",
         "external": false
@@ -83,22 +79,17 @@
   "social": [
     {
       "platform": "github",
-      "url": "https://github.com/johndoe",
+      "url": "https://github.com/rohansingh131094",
       "label": "GitHub"
     },
     {
       "platform": "linkedin",
-      "url": "https://linkedin.com/in/john-doe",
+      "url": "https://linkedin.com/in/rohansingh13",
       "label": "LinkedIn"
     },
     {
-      "platform": "twitter",
-      "url": "https://twitter.com/johndoe_dev",
-      "label": "Twitter"
-    },
-    {
       "platform": "email",
-      "value": "hello@johndoe.dev",
+      "value": "rohan.singh13@gmail.com",
       "label": "Email"
     }
   ],
