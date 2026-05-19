@@ -9,6 +9,7 @@
     "experience",
     "achievements",
     "skills",
+    "projects",
     "education",
     "contact"
   ],
@@ -365,11 +366,26 @@
     "eyebrow": "Academic Background",
     "headline": "Education"
   },
-  "projects": [],
+  "projects": [
+    {
+      "id": "h1b-predictor",
+      "title": "H1-B Application Predictor",
+      "description": "Built a machine learning model to predict the likelihood of an LCA application being accepted based on parameters USCIS allows as part of the H1-B application process.",
+      "tags": ["Python", "Machine Learning", "Data Science"],
+      "featured": true
+    },
+    {
+      "id": "flame-systems",
+      "title": "Flame Systems",
+      "description": "Co-founded a startup to build a smart inventory management application for small and mid-income businesses in India, leveraging data analytics to provide actionable business insights.",
+      "tags": ["Startup", "Data Analytics", "Product Management"],
+      "featured": false
+    }
+  ],
   "projectsSection": {
-    "eyebrow": "Open Source",
+    "eyebrow": "Academic & Personal",
     "headline": "Projects",
-    "description": "Side projects and open source contributions."
+    "description": "Selected projects from Columbia University and personal ventures."
   },
   "clients": {
     "title": "Companies",

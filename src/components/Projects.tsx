@@ -90,26 +90,33 @@ export function Projects() {
                   </div>
                 )}
 
-                <Button variant="outline" size="sm" asChild className="w-full">
-                  <a
-                    href={project.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                {project.url && (
+                  <Button
+                    variant="outline"
+                    size="sm"
+                    asChild
+                    className="w-full"
                   >
-                    {project.url.includes('github.com') ? (
-                      <>
-                        <Github className="mr-2 h-4 w-4" />
-                        View on GitHub
-                      </>
-                    ) : (
-                      <>
-                        <Link className="mr-2 h-4 w-4" />
-                        View Project
-                      </>
-                    )}
-                    <ExternalLink className="ml-auto h-3 w-3 opacity-50" />
-                  </a>
-                </Button>
+                    <a
+                      href={project.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {project.url.includes('github.com') ? (
+                        <>
+                          <Github className="mr-2 h-4 w-4" />
+                          View on GitHub
+                        </>
+                      ) : (
+                        <>
+                          <Link className="mr-2 h-4 w-4" />
+                          View Project
+                        </>
+                      )}
+                      <ExternalLink className="ml-auto h-3 w-3 opacity-50" />
+                    </a>
+                  </Button>
+                )}
               </CardContent>
             </Card>
           ))}
