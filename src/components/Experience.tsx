@@ -125,20 +125,22 @@ export function Experience() {
                           ) : (
                             <Building2 className="w-5 h-5 text-brass-500" />
                           )}
-                          <h3 className="text-xl font-display font-semibold text-navy-900 dark:text-slate-100">
-                            {exp.url ? (
-                              <a
-                                href={exp.url}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="hover:text-brass-600 dark:hover:text-brass-400 transition-colors"
-                              >
-                                {exp.company}
-                              </a>
-                            ) : (
-                              exp.company
-                            )}
-                          </h3>
+                          {!exp.logo && (
+                            <h3 className="text-xl font-display font-semibold text-navy-900 dark:text-slate-100">
+                              {exp.url ? (
+                                <a
+                                  href={exp.url}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="hover:text-brass-600 dark:hover:text-brass-400 transition-colors"
+                                >
+                                  {exp.company}
+                                </a>
+                              ) : (
+                                exp.company
+                              )}
+                            </h3>
+                          )}
                         </div>
                         <p className="text-lg font-medium text-slate-700 dark:text-slate-300">
                           {exp.role}
