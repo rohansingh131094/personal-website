@@ -28,19 +28,6 @@
         "target": "#contact"
       }
     },
-    "statusBadge": {
-      "text": "Enterprise Sales Engineer at Sierra",
-      "active": false
-    },
-    "valuePills": [
-      { "label": "Sierra", "sublabel": "AI Agents", "highlight": true },
-      {
-        "label": "{{yearsSince:seCareerStartYear}}yr",
-        "sublabel": "Sales Engineer",
-        "highlight": false
-      },
-      { "label": "$1M+", "sublabel": "ARR Closed", "highlight": false }
-    ],
     "quickStats": [
       {
         "value": "{{yearsSince:seCareerStartYear}}",
