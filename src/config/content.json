@@ -130,31 +130,13 @@
   ],
   "achievements": [
     {
-      "id": "sierra-pocs",
-      "title": "Fortune 500 POC Wins at Sierra",
-      "category": "sales",
-      "summary": "Closed 6 highly competitive Fortune 500 POCs at Sierra, an AI platform for customer experience",
-      "impact": "$1M+ in net new ARR through tailored AI agent demos",
-      "details": [
-        "Secured technical wins in competitive evaluations against established enterprise AI vendors",
-        "Tailored AI agent demos to client-specific customer experience use cases",
-        "Partnered with Forward Deployed Engineering to enable customers on the Sierra platform during POCs",
-        "Proactively identified 3 expansion opportunities surfacing additional revenue potential",
-        "Mentored newly onboarded Sales Engineers, accelerating their ramp to live customer engagements"
-      ],
-      "metrics": [
-        { "label": "POCs Closed", "value": "6" },
-        { "label": "Net New ARR", "value": "$1M+" },
-        { "label": "Expansion Opportunities", "value": "3" }
-      ]
-    },
-    {
       "id": "aisera-enterprise",
       "title": "Enterprise AI Sales at Aisera",
       "category": "sales",
       "summary": "Drove enterprise AI agent adoption at Aisera as Lead Sales Engineer over 4 years",
       "impact": "Closed multiple Enterprise clients at $500K+ ARR each, with 100+ annual pre-sales engagements",
       "details": [
+        "Joined as Aisera's 3rd Sales Engineer hire and first on the East Coast, helping build the enterprise sales motion from the ground up",
         "Closed multiple Enterprise clients with ARR of $500K+ each",
         "Conducted 100+ engaging pre-sales demos, POCs, and risk/security assessments annually",
         "Served clients from SMEs to large Fortune 500 enterprises across multiple verticals",
@@ -164,6 +146,25 @@
         { "label": "Client ARR", "value": "$500K+" },
         { "label": "Annual Demos", "value": "100+" },
         { "label": "Demos Published", "value": "5+" }
+      ]
+    },
+    {
+      "id": "sierra-pocs",
+      "title": "Fortune 500 POC Wins at Sierra",
+      "category": "sales",
+      "summary": "Closed 6 highly competitive Fortune 500 POCs at Sierra, an AI platform for customer experience",
+      "impact": "$10M+ in net new ARR through tailored AI agent demos",
+      "details": [
+        "Secured technical wins in competitive evaluations against established enterprise AI vendors",
+        "Tailored AI agent demos to client-specific customer experience use cases",
+        "Partnered with Forward Deployed Engineering to enable customers on the Sierra platform during POCs",
+        "Proactively identified 3 expansion opportunities surfacing additional revenue potential",
+        "Mentored newly onboarded Sales Engineers, accelerating their ramp to live customer engagements"
+      ],
+      "metrics": [
+        { "label": "POCs Closed", "value": "50+" },
+        { "label": "Net New ARR", "value": "$10M+" },
+        { "label": "Expansion Opportunities", "value": "3" }
       ]
     },
     {
@@ -179,7 +180,7 @@
         "Served as go-to resource across the SE team for platform knowledge and deal strategy"
       ],
       "metrics": [
-        { "label": "Engineers Mentored", "value": "4+" },
+        { "label": "Sales Engineers", "value": "8+" },
         { "label": "Companies", "value": "2" }
       ]
     }
