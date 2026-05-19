@@ -60,23 +60,14 @@ export function ClientLogos() {
         {clientsEyebrow}
       </span>
       <div className="flex flex-wrap items-center justify-center gap-x-4 md:gap-x-6">
-        {clients.map((client, index) => (
+        {clients.map((client) => (
           <span key={client.name} className="flex items-center gap-4 md:gap-6">
             <ClientLogo
               name={client.name}
-              url={
-                'url' in client ? (client.url as string | undefined) : undefined
-              }
-              logo={
-                'logo' in client
-                  ? (client.logo as string | undefined)
-                  : undefined
-              }
+              url={client.url}
+              logo={client.logo}
               highlight={client.highlight}
             />
-            {index < clients.length - 1 && (
-              <span className="text-slate-300 dark:text-slate-600">•</span>
-            )}
           </span>
         ))}
       </div>

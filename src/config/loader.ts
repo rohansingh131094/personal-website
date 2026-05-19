@@ -517,8 +517,13 @@ const rawClients = rawContentConfig.clients
 export const clients = rawClients
   ? rawClients.items.map((client) =>
       typeof client === 'string'
-        ? { name: client, highlight: false }
-        : { name: client.name, highlight: client.highlight ?? false }
+        ? { name: client, highlight: false, url: undefined, logo: undefined }
+        : {
+            name: client.name,
+            highlight: client.highlight ?? false,
+            url: client.url,
+            logo: client.logo,
+          }
     )
   : []
 

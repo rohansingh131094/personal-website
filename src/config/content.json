@@ -27,19 +27,7 @@
         "text": "Get in Touch",
         "target": "#contact"
       }
-    },
-    "quickStats": [
-      {
-        "value": "{{yearsSince:seCareerStartYear}}",
-        "suffix": "+",
-        "label": "Years SE Experience"
-      },
-      {
-        "value": "4",
-        "suffix": "",
-        "label": "Years at Aisera"
-      }
-    ]
+    }
   },
   "metrics": [
     {
