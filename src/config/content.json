@@ -16,6 +16,7 @@
   "hero": {
     "name": "Rohan Singh",
     "title": "Enterprise Sales Engineer",
+    "avatar": "/profile.jpg",
     "tagline": "{{yearsSince:seCareerStartYear}}+ years closing enterprise deals in AI and tech. Currently at Sierra driving Fortune 500 AI agent adoption.",
     "cta": {
       "primary": {
