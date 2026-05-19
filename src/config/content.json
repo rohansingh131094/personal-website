@@ -92,6 +92,7 @@
     {
       "company": "Sierra",
       "url": "https://sierra.ai",
+      "logo": "/logos/sierra.svg",
       "role": "Enterprise Sales Engineer",
       "period": "Nov 2025 - Present",
       "location": "New York, US",
@@ -392,10 +393,19 @@
     "title": "Companies",
     "display": "list",
     "items": [
-      { "name": "Sierra", "highlight": true },
-      { "name": "Aisera", "highlight": false },
-      { "name": "Tradewind Markets", "highlight": false },
-      { "name": "PayPal", "highlight": false }
+      {
+        "name": "Sierra",
+        "url": "https://sierra.ai",
+        "logo": "/logos/sierra.svg",
+        "highlight": true
+      },
+      { "name": "Aisera", "url": "https://aisera.com", "highlight": false },
+      {
+        "name": "Tradewind Markets",
+        "url": "https://tradewindmarkets.com",
+        "highlight": false
+      },
+      { "name": "PayPal", "url": "https://paypal.com", "highlight": false }
     ]
   },
   "contact": {

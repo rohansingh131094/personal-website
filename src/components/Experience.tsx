@@ -1,13 +1,23 @@
 import { useState, useRef, useEffect } from 'react'
 import { MapPin, Calendar, ChevronDown, Building2 } from 'lucide-react'
 
-function CompanyLogo({ url, name }: { url: string; name: string }) {
+function CompanyLogo({
+  url,
+  logo,
+  name,
+}: {
+  url: string
+  logo?: string
+  name: string
+}) {
   const domain = new URL(url).hostname
   const [failed, setFailed] = useState(false)
 
   if (failed) {
     return <Building2 className="w-5 h-5 text-brass-500" />
   }
+
+  const src = logo ?? `https://logos.hunter.io/${domain}`
 
   return (
     <a
@@ -17,7 +27,7 @@ function CompanyLogo({ url, name }: { url: string; name: string }) {
       className="shrink-0"
     >
       <img
-        src={`https://logos.hunter.io/${domain}`}
+        src={src}
         alt={`${name} logo`}
         className="h-7 w-auto object-contain"
         onError={() => setFailed(true)}
@@ -107,7 +117,11 @@ export function Experience() {
                       <div>
                         <div className="flex items-center gap-2 mb-2">
                           {exp.url ? (
-                            <CompanyLogo url={exp.url} name={exp.company} />
+                            <CompanyLogo
+                              url={exp.url}
+                              logo={exp.logo}
+                              name={exp.company}
+                            />
                           ) : (
                             <Building2 className="w-5 h-5 text-brass-500" />
                           )}
