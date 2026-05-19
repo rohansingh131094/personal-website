@@ -107,6 +107,7 @@
     {
       "company": "Aisera",
       "url": "https://aisera.com",
+      "logo": "/logos/aisera.webp",
       "role": "Lead Sales Engineer",
       "period": "June 2021 - Oct 2025",
       "location": "New Jersey, US",
@@ -399,7 +400,12 @@
         "logo": "/logos/sierra.svg",
         "highlight": true
       },
-      { "name": "Aisera", "url": "https://aisera.com", "highlight": false },
+      {
+        "name": "Aisera",
+        "url": "https://aisera.com",
+        "logo": "/logos/aisera.webp",
+        "highlight": false
+      },
       {
         "name": "Tradewind Markets",
         "url": "https://tradewindmarkets.com",
