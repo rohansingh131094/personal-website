@@ -55,20 +55,23 @@ export function ClientLogos() {
   if (clients.length === 0) return null
 
   return (
-    <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 md:gap-x-8">
+    <div className="w-full flex flex-col items-center gap-3">
       <span className="text-xs uppercase tracking-wider text-slate-400 dark:text-slate-500 font-medium">
         {clientsEyebrow}
       </span>
-      <div className="flex flex-wrap items-center justify-center gap-x-4 md:gap-x-6">
+      <div className="w-full flex items-center justify-between">
         {clients.map((client) => (
-          <span key={client.name} className="flex items-center gap-4 md:gap-6">
+          <div
+            key={client.name}
+            className="flex items-center justify-center flex-1"
+          >
             <ClientLogo
               name={client.name}
               url={client.url}
               logo={client.logo}
               highlight={client.highlight}
             />
-          </span>
+          </div>
         ))}
       </div>
     </div>
