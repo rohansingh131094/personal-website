@@ -32,34 +32,26 @@
   "metrics": [
     {
       "label": "Net New ARR",
-      "value": 1,
+      "value": 10,
       "suffix": "M+",
       "description": "Contributed at Sierra through Fortune 500 POC wins",
-      "max": 5,
+      "max": 20,
       "achievementId": "sierra-pocs"
     },
     {
       "label": "POCs Closed",
-      "value": 6,
-      "suffix": "",
+      "value": 50,
+      "suffix": "+",
       "description": "Highly competitive Fortune 500 POCs at Sierra",
-      "max": 10,
+      "max": 75,
       "achievementId": "sierra-pocs"
     },
     {
-      "label": "Annual Demos",
-      "value": 100,
-      "suffix": "+",
-      "description": "Pre-sales demos, POCs, and assessments per year at Aisera",
-      "max": 150,
-      "achievementId": "aisera-enterprise"
-    },
-    {
       "label": "SEs Mentored",
-      "value": 4,
+      "value": 8,
       "suffix": "+",
       "description": "Sales Engineers onboarded and mentored across Aisera and Sierra",
-      "max": 10,
+      "max": 15,
       "achievementId": "mentorship"
     }
   ],
