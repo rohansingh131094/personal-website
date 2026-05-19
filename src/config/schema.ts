@@ -458,8 +458,22 @@ export const SectionIdSchema = z.enum([
   'skills',
   'projects',
   'clients',
+  'education',
   'contact',
 ])
+
+export const EducationEntrySchema = z.object({
+  institution: z.string().min(1),
+  degree: z.string().min(1),
+  period: z.string().min(1),
+  location: z.string().optional(),
+})
+
+export const EducationSectionSchema = z.object({
+  eyebrow: z.string().default('Academic Background'),
+  headline: z.string().default('Education'),
+  description: z.string().optional(),
+})
 
 /**
  * Schema for temperature preset configuration.
@@ -625,6 +639,8 @@ export const ContentConfigSchema = z.object({
     }),
   projectsSection: ProjectsSectionSchema.optional(),
   clients: ClientsSectionSchema.optional(),
+  education: z.array(EducationEntrySchema).optional(),
+  educationSection: EducationSectionSchema.optional(),
   contact: ContactSchema.optional(),
   footer: FooterSchema.optional(),
 
@@ -912,6 +928,8 @@ export type ProjectsSection = z.infer<typeof ProjectsSectionSchema>
 export type Client = z.infer<typeof ClientSchema>
 export type ClientsSection = z.infer<typeof ClientsSectionSchema>
 export type CustomSection = z.infer<typeof CustomSectionSchema>
+export type EducationEntry = z.infer<typeof EducationEntrySchema>
+export type EducationSection = z.infer<typeof EducationSectionSchema>
 export type JobBoardScoringConfig = z.infer<typeof JobBoardScoringConfigSchema>
 export type TemperaturePreset = z.infer<typeof TemperaturePresetSchema>
 

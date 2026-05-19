@@ -9,6 +9,7 @@
     "experience",
     "achievements",
     "skills",
+    "education",
     "contact"
   ],
   "hero": {
@@ -345,6 +346,24 @@
       { "title": "AI", "subtitle": "Agent Platforms" },
       { "title": "Fortune 500", "subtitle": "Enterprise Clients" }
     ]
+  },
+  "education": [
+    {
+      "institution": "Columbia University",
+      "degree": "MS in Management Science & Engineering",
+      "period": "Aug 2018 - Dec 2019",
+      "location": "New York, NY, USA"
+    },
+    {
+      "institution": "Birla Institute of Technology and Science (BITS Pilani)",
+      "degree": "BTech in Computer Science, MS in Biological Science",
+      "period": "Aug 2012 - Jun 2017",
+      "location": "Pilani, Rajasthan, India"
+    }
+  ],
+  "educationSection": {
+    "eyebrow": "Academic Background",
+    "headline": "Education"
   },
   "projects": [],
   "projectsSection": {

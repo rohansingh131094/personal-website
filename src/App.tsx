@@ -5,6 +5,7 @@ import { Experience } from '@/components/Experience'
 import { Competencies } from '@/components/Competencies'
 import { Skills } from '@/components/Skills'
 import { Projects } from '@/components/Projects'
+import { Education } from '@/components/Education'
 import { Contact } from '@/components/Contact'
 import { SectionNav } from '@/components/SectionNav'
 import { ThemeChooserFAB } from '@/components/ThemeChooserFAB'
@@ -45,6 +46,7 @@ const cardSectionComponents: Record<string, React.FC> = {
   achievements: Competencies,
   skills: Skills,
   projects: Projects,
+  education: Education,
   contact: Contact,
 }
 
@@ -55,6 +57,7 @@ const editorialSectionComponents: Record<string, React.FC> = {
   achievements: EditorialSelectedWork,
   skills: EditorialSkillsIndex,
   projects: EditorialProjects,
+  education: Education,
   contact: EditorialContact,
 }
 
@@ -65,6 +68,7 @@ const concreteSectionComponents: Record<string, React.FC> = {
   achievements: ConcreteSelectedWork,
   skills: ConcreteSkillsIndex,
   projects: ConcreteProjects,
+  education: Education,
   contact: ConcreteContact,
 }
 

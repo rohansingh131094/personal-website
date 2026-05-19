@@ -35,6 +35,8 @@ import {
   type JobBoardScoringConfig,
   type Project,
   type ProjectsSection,
+  type EducationEntry,
+  type EducationSection,
 } from './schema'
 
 // ============================================================================
@@ -595,6 +597,15 @@ export const achievementsSection: AchievementsSection = {
   description:
     rawContentConfig.achievementsSection?.description ??
     'Strategic accomplishments across partnerships, architecture, leadership, and specialized domains.',
+}
+
+// Education
+export const education: EducationEntry[] = rawContentConfig.education ?? []
+
+export const educationSection: EducationSection = {
+  eyebrow: rawContentConfig.educationSection?.eyebrow ?? 'Academic Background',
+  headline: rawContentConfig.educationSection?.headline ?? 'Education',
+  description: rawContentConfig.educationSection?.description,
 }
 
 // Clients eyebrow (for ClientLogos component)
