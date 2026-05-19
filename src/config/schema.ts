@@ -223,6 +223,7 @@ export const HeroSchema = z.object({
  */
 export const ExperienceSchema = z.object({
   company: z.string().min(1),
+  url: z.string().url().optional(),
   role: z.string().min(1),
   period: z.string().min(1),
   location: z.string().optional(),

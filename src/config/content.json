@@ -91,6 +91,7 @@
   "experience": [
     {
       "company": "Sierra",
+      "url": "https://sierra.ai",
       "role": "Enterprise Sales Engineer",
       "period": "Nov 2025 - Present",
       "location": "New York, US",
@@ -104,6 +105,7 @@
     },
     {
       "company": "Aisera",
+      "url": "https://aisera.com",
       "role": "Lead Sales Engineer",
       "period": "June 2021 - Oct 2025",
       "location": "New Jersey, US",
@@ -124,6 +126,7 @@
     },
     {
       "company": "Tradewind Markets",
+      "url": "https://tradewindmarkets.com",
       "role": "Sales Engineer",
       "period": "June 2019 - June 2021",
       "location": "New York, US",
@@ -137,6 +140,7 @@
     },
     {
       "company": "PayPal",
+      "url": "https://paypal.com",
       "role": "Software Engineer",
       "period": "January 2017 - July 2018",
       "location": "Bangalore, India",

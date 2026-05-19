@@ -1,5 +1,30 @@
 import { useState, useRef, useEffect } from 'react'
 import { MapPin, Calendar, ChevronDown, Building2 } from 'lucide-react'
+
+function CompanyLogo({ url, name }: { url: string; name: string }) {
+  const domain = new URL(url).hostname
+  const [failed, setFailed] = useState(false)
+
+  if (failed) {
+    return <Building2 className="w-5 h-5 text-brass-500" />
+  }
+
+  return (
+    <a
+      href={url}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="shrink-0"
+    >
+      <img
+        src={`https://logos.hunter.io/${domain}`}
+        alt={`${name} logo`}
+        className="h-7 w-auto object-contain"
+        onError={() => setFailed(true)}
+      />
+    </a>
+  )
+}
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
@@ -81,9 +106,24 @@ export function Experience() {
                     <div className="flex items-start justify-between gap-4">
                       <div>
                         <div className="flex items-center gap-2 mb-2">
-                          <Building2 className="w-5 h-5 text-brass-500" />
+                          {exp.url ? (
+                            <CompanyLogo url={exp.url} name={exp.company} />
+                          ) : (
+                            <Building2 className="w-5 h-5 text-brass-500" />
+                          )}
                           <h3 className="text-xl font-display font-semibold text-navy-900 dark:text-slate-100">
-                            {exp.company}
+                            {exp.url ? (
+                              <a
+                                href={exp.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-brass-600 dark:hover:text-brass-400 transition-colors"
+                              >
+                                {exp.company}
+                              </a>
+                            ) : (
+                              exp.company
+                            )}
                           </h3>
                         </div>
                         <p className="text-lg font-medium text-slate-700 dark:text-slate-300">
