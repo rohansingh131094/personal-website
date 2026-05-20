@@ -260,6 +260,12 @@
           "weight": 8
         },
         {
+          "name": "Wispr Flow",
+          "context": "AI voice dictation for faster, hands-free communication and writing",
+          "aliases": ["wispr", "wispr flow", "voice dictation", "ai dictation"],
+          "weight": 8
+        },
+        {
           "name": "Salesforce",
           "context": "CRM for pipeline management and enterprise deal tracking",
           "aliases": ["salesforce", "sfdc", "crm"],
