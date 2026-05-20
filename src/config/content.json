@@ -278,6 +278,12 @@
           "weight": 8
         },
         {
+          "name": "Postman",
+          "context": "API testing and validation during enterprise POCs and integrations",
+          "aliases": ["postman", "api testing"],
+          "weight": 7
+        },
+        {
           "name": "AWS",
           "context": "Cloud infrastructure for enterprise AI deployments",
           "aliases": ["aws", "amazon web services"],
