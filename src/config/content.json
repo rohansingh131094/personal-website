@@ -69,7 +69,7 @@
         "Proactively identified 3 expansion opportunities that surfaced additional revenue potential",
         "Mentored newly onboarded Sales Engineers on the Sierra platform and enterprise sales motion, accelerating their ramp to live customer engagements"
       ],
-      "techStack": ["AI Agents", "Python", "Salesforce", "AWS", "Azure"]
+      "techStack": ["Claude", "Cursor", "Python", "Salesforce"]
     },
     {
       "company": "Aisera",
