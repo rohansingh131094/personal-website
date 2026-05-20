@@ -248,6 +248,18 @@
       "name": "Platforms & Tools",
       "skills": [
         {
+          "name": "Claude (Anthropic)",
+          "context": "Daily use for technical writing, research, and AI-native workflows",
+          "aliases": ["claude", "anthropic", "llm"],
+          "weight": 9
+        },
+        {
+          "name": "Cursor",
+          "context": "AI-powered code editor for scripting, automation, and demo building",
+          "aliases": ["cursor", "ai editor", "ai coding"],
+          "weight": 8
+        },
+        {
           "name": "Salesforce",
           "context": "CRM for pipeline management and enterprise deal tracking",
           "aliases": ["salesforce", "sfdc", "crm"],
@@ -270,18 +282,6 @@
           "context": "Enterprise cloud platform for customer deployments",
           "aliases": ["azure", "microsoft azure"],
           "weight": 7
-        },
-        {
-          "name": "Tableau",
-          "context": "Customer activity dashboards and business analytics at Tradewind",
-          "aliases": ["tableau", "data visualization"],
-          "weight": 7
-        },
-        {
-          "name": "JIRA",
-          "context": "Project tracking and customer feedback coordination",
-          "aliases": ["jira", "project management"],
-          "weight": 6
         }
       ]
     },
